@@ -61,6 +61,7 @@ const onSelect = (id: number) => {
   padding: 15px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 .inventory__selected-text {
   align-self: center;
