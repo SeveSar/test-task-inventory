@@ -61,7 +61,6 @@ const onSelect = (id: number) => {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 }
 .inventory__selected-text {
   align-self: center;
@@ -71,6 +70,7 @@ const onSelect = (id: number) => {
   grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
   grid-template-rows: repeat(auto-fill, 60px);
   gap: 15px;
+  flex-grow: 1;
 }
 .inventory__selected-text {
   display: flex;
